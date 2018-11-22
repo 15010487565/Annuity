@@ -45,6 +45,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFile = new File(output.outputFile.parent,
+                    "小确幸c端-v" + defaultConfig.versionName + "-" + defaultConfig.versionCode + ".apk");
+        }
+    }
 }
 
 dependencies {
