@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="80px"
+    android:layout_marginBottom="80px"
+    android:orientation="horizontal"
+    tools:showIn="@layout/fragment_home">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37px"
+        android:layout_marginRight="37px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="56px"
+            android:layout_height="56px"
+            android:background="@mipmap/trustee" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_12"
+            android:textColor="@color/black_5B"
+            android:textStyle="bold"
+            android:layout_marginTop="32px"
+            android:layout_marginBottom="20px"
+            android:text="受托机构" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_11"
+            android:textColor="@color/black_5B"
+            android:gravity="center_horizontal"
+            android:text="中国老龄事业发展基金会" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37px"
+        android:layout_marginRight="37px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="56px"
+            android:layout_height="56px"
+            android:background="@mipmap/entrustment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_12"
+            android:textColor="@color/black_5B"
+            android:layout_marginTop="32px"
+            android:layout_marginBottom="20px"
+            android:textStyle="bold"
+            android:text="受托机构" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_11"
+            android:textColor="@color/black_5B"
+            android:text="中心银行" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37px"
+        android:layout_marginRight="37px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="56px"
+            android:layout_height="56px"
+            android:background="@mipmap/capital_impartiality" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_12"
+            android:textColor="@color/black_5B"
+            android:layout_marginTop="32px"
+            android:layout_marginBottom="20px"
+            android:textStyle="bold"
+            android:text="受托机构" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_11"
+            android:textColor="@color/black_5B"
+            android:text="中信公证处" />
+    </LinearLayout>
+</LinearLayout>

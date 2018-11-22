@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_HomeRcTopAdapter"
+        android:layout_width="270px"
+        android:layout_height="202px"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/tv_HomeRcTopAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_26"
+        android:textSize="@dimen/textsize_13"
+        android:textStyle="bold"
+        android:layout_marginTop="25px"
+        android:text="手机充值"/>
+
+
+</LinearLayout>

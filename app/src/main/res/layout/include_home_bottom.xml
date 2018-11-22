@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/fragment_home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线下消费获金"
+        android:layout_marginTop="80px"
+        android:textColor="@color/black_26"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6px"
+        android:text="线下合作门店消费记得养老金"
+        android:textColor="@color/black_99"
+        android:textSize="12sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_HomeBottem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_f7"
+        android:nestedScrollingEnabled="false" />
+
+</merge>
